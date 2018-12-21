@@ -1,0 +1,39 @@
+
+<script>
+var haha = document.createElement('div')
+haha.setAttribute("id", "lol");
+haha.style.width = "100%"
+haha.style.height = "240px"
+haha.style.background = "pink"
+document.write(haha.outerHTML)
+
+var lol = document.getElementById('lol');
+var countDownDate = new Date("June 22, 2018 18:00:00").getTime();
+lol.style.fontSize = "60px"
+lol.style.paddingTop = "180px";
+lol.style.textAlign = "center"
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  lol.innerHTML = minutes + "mins " + seconds + "secs ";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    lol.innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<style type="text/css">
+		*{
+			font-family: Roboto;
+		}
+		div, p{
+			transition:all ease-out .5s 0s;
+		}
+
+		.fade-All{opacity:0;position:relative;}
+
+		/* Left Vertical Line */
+		.fadein{height: 0px;}
+		.fadein.showing{height: 240px; opacity:1;}
+
+		/* Left Large Image */
+		.fadein1{}
+		.fadein1.showing{opacity:1;}
+
+		/* 'Food & Beverage' Title */
+		.fadeleft{transform: translate(-50px,0);}
+		.fadeleft.showing{transform: translate(0,0); opacity:1;}
+
+		/* Whole right content */
+		.faderight{transform: translate(50px,0);}
+		.faderight.showing{transform: translate(0,0); opacity:1;}
+
+		/* Whole right content */
+		.fadeup{transform: translate(0,50px);}
+		.fadeup.showing{transform: translate(0,0); opacity:1;}
+
+	</style>
+	<script type="text/JavaScript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" ></script>
+	<script language="JavaScript" type="text/javascript" src="tryFirst.js"></script>
+</head>
+<body>
+	<div class="firstBanner" style="width: 100%; margin: 0 auto; height: 450px; display: flex; overflow: visible; border: 1px solid black; ">
+
+	<div style="width: 50%;">
+	
+	<!-- Left Vertical Line -->
+	<div class="fadein fade-All" style="background:#563C7C; width: 1.5px; opacity: .3; float: left; margin-left: 6%; margin-top: 23%; position: relative; margin-right: -3%;"></div>
+	
+	<!-- Left Large Image -->
+	<div class="fadein1 fade-All" style="margin-left: 20%; width: 100%; height: 137%; position: relative; margin-top: -130px; margin-bottom: -20px;">
+	<img src="brooke-lark-93583-unsplash (1)@2x.png" style="width: auto; height: 100%;">
+	</div>
+
+	<!-- 'Food & Beverage' Title -->
+	<div class="fadeleft fade-All" style="margin-top: -460px; position: relative; white-space: nowrap; margin-bottom: 250px;">
+	<div style="">
+	<p style="font-size: 128px; color: #AFAFAF; opacity: 0.1; line-height: 1; font-weight: bold;">Food &</p>
+	</div>
+	<div style="margin-top: -100px; margin-left: 83%;">
+	<p style=" font-size: 128px; color: #AFAFAF; opacity: 0.1; line-height: 1; font-weight: bold;">Beverage</p>
+	</div>
+    </div>
+
+    <!-- Center Bottom Image -->
+	<div class="fadeup fade-All">
+	<img src="hp-pos1.png" style="width: 70%; height: auto; margin-top: -260px; margin-left: 230px; position: relative;">
+	</div>
+	</div>
+
+	<div style="width: 50%;">
+	<div class="faderight fade-All" style="float: right; margin-top: 35%;">
+
+	<!-- Ultimate Solution For F&B business -->
+	<div style="position: relative;">
+	<p style="font-size: 39px; color: #563C7C; line-height: .7; font-weight: bold;">Ultimate Solution</p>
+	<p style="font-size: 39px; color: #563C7C; line-height: .7; font-weight: bold;">For F&B business</p>
+	</div>
+
+	<!-- Right Center Horizontal Line -->
+	<div style="background:#7E36E5; height: 1.5px; width: 115px; z-index: 1; float: right;"></div>
+        <br>
+
+    <!-- Paragraph Content -->
+	<div style="max-width: 300px; text-align: center;clear: both;">
+	<p style="font-size: 16px; color: #707070; line-height: 1.2; font-weight: 300;">
+	We provide all in one solution to manage kitchen, table ordering and multi payment
+	</p>
+	</div>
+
+	</div>
+	</div>
+
+	</div>
+
+</body>
+</html>
