@@ -1,0 +1,38 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+<div style="overflow: hidden; width: 100%; margin: 0 auto; height: 450px;">
+<div style="background:#7E36E5; height: 7px; width: 10%; position: absolute; left: 3%; top:10%; z-index: 1;"></div>
+<p style="font-size:200px; position: absolute; top:0%; font-family: Roboto; font-weight: bold; color: #AFAFAF; opacity: .5;">02</p>
+<div>
+<p style="font-size:27px; position: absolute; top:40%; left: 10%; font-family: Roboto; font-weight: bold; color: #563C7C;">Promo Functions</p>
+<div style="background:#7E36E5; height: 3px; width: 25%; position: absolute; left: 32%; top: 45%; z-index: 1;"></div>
+
+<p style="position: absolute; width: 50%; left: 3%; max-width: 300px; color: #95989A; bottom: 6%; line-height: 1.2; font-size: 12px;">
+Run promotions in store easily in Xilnex.<br>Discounts, coupons, redemptions and gift cards; it will leave your customers coming back for more.
+</p>
+<br>
+<!-- Get Quote Form -->
+
+<div style="width: 50%; position: absolute; bottom: 0%; left: 3%;">
+<form method="POST" action="#">
+
+<div class="col-75" style="float: left; width: 40%;">
+<input type="email" name="email" placeholder="Enter Email" style="width: 90%; height: 25px; font-size: 11px; padding: 5px; min-width: 150px;">
+</div>
+
+<div class="col-25" style="float: left; width: 15%;">
+<input type="button" name="submit" value="GET THE QUOTE" style="background-color: #563C7C; border: none; color: white; font-size: 7px;height: 25px; width: 100%; box-shadow: 0 3px 6px rgba(0,0,0,0.16); min-width: 80px;">
+</div>
+
+</form>
+</div>
+
+</div>
+
+<div style="height: 500px; overflow: hidden; width: 50%; position: absolute; right: 0;">
+<img src="/wp-content/uploads/2018/05/dan-gold-105699-unsplash.png" style=" height: auto; z-index: 0;">
+</div>
+
+<img src="/wp-content/uploads/2018/05/windows8-surface.png" style="width: 45%; position: absolute; bottom: -33%; left: 30%; height: auto; z-index: 0;  display: block; max-width: 600px;">
+
+</div>

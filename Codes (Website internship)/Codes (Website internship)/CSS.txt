@@ -1,0 +1,53 @@
+/* Every header (title) */
+.header {
+	line-height: 1;
+	font-size: 50px;
+}
+
+/* WATCH VIDEO button */
+#mk-gradient-button-10 .mk-button .text{
+	color: #715BB9;
+}
+
+*{
+	font-family:Roboto;
+}
+
+/* Mobile */
+@media (max-width: 680px) {
+	
+	/* Every header (title) */
+	.header { font-size: 31px !important; line-height:1 !important; }
+
+	/* Every paragraph */
+	.paragraphContent{ 
+		font-size: 18px !important;
+	}
+	
+	/* paragraph 1 */
+	.vc_custom_1526873046393{
+		margin: 0 -90px 0 -90px !important;
+	}	
+	
+	/* 2 buttons (TRY XILNEX DEMO & WATCH VIDEO) */
+	.wpb_row:nth-child(2){
+		width: 175px ;
+  	margin-left: auto ;
+  	margin-right: auto ;
+	}
+	
+	/* WATCH VIDEO button*/
+	.wpb_row:nth-child(2) .vc_col-sm-2 #mk-gradient-button-10{
+		margin: -5px !important; 
+	}
+	
+	/* paragraph 2 */
+	.vc_custom_1526867031603{
+		margin: 0 -90px 0 -90px !important;
+	}
+	
+	/* paragraph 3 */
+	.vc_custom_1526873056526{
+		margin: 0 -180px 0 -180px !important;
+	}
+}

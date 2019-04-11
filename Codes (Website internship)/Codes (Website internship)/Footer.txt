@@ -1,0 +1,89 @@
+<div style="width: 260px;float:left;">
+<span style="font-size: 20px; font-weight: bold;">About Web Bytes Sdn. Bhd.</span>
+<div style="font-size: 8px; line-height: 1.4; margin-top: 0px; font-weight: 250;">Web Bytes Sdn Bhd is a company dedicated to innovating and creating a dynamic and feature-rich business solution for our customers. Since 2007, what began as a small project quickly became a passion to reinvent how retail software works today. Together with an enthusiastic and innovative team, we aspire to revolutionise the use of POS to build tomorrow¡¯s retail experience.</div>
+</div>
+
+<div style="float:right; margin-left:20px;">
+<span style="font-size:12px;font-weight:300px;">CONNECT US</span>
+<span style="font-size:8px;font-weight: 250;">
+<br><a href="#" style="text-decoration: none;color:white;">Email us</a>
+<br><a href="#" style="text-decoration: none;color:white;">Social Media</a>
+</span>
+<div>
+<a href="#"><img src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-icon-preview-200x200.png" width="10" style="float:left;padding:3px 3px 3px 0;"></a>
+<a href="#"><img src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-icon-preview-200x200.png" width="10" style="float:left;padding:3px;"></a>
+<a href="#"><img src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-icon-preview-200x200.png" width="10" style="float:left;padding:3px;"></a>
+<a href="#"><img src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-icon-preview-200x200.png" width="10" style="float:left;padding:3px;"></a>
+<a href="#"><img src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-icon-preview-200x200.png" width="10" style="float:left;padding:3px;"></a>
+</div>
+<div>
+<form method="post" action="#">
+<input type="email" name="userEmail" placeholder="Email" style="width:70px;height:10px;font-size:6px;padding-left:2px;">
+<input type="submit" value="Download" style="width:40px;height:14.5px;color:#715BB9;background-color: #ffffff; border: none;padding: 2px;text-align: center;text-decoration: none;display: inline-block;font-size: 6px;box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16); font-weight: bold;">
+</form>
+</div>
+</div>
+
+<div style="float:right; margin-left:20px;">
+<span style="font-size:12px;font-weight:300px;color:white;">RESOURCE</span>
+<span style="font-size:8px;font-weight: 250;">
+<br><a href="#" style="text-decoration: none;color:white;">Getting Started</a>
+<br><a href="#" style="text-decoration: none;color:white;">Blog</a>
+</span>
+</div>
+
+<div style="float:right; margin-left:20px;">
+<span style="font-size:12px;font-weight:300px;">PRODUCTS</span>
+<span style="font-size:8px;font-weight: 250;">
+<br><a href="#" style="text-decoration: none;color:white;">Full service F&B</a>
+<br><a href="#" style="text-decoration: none;color:white;">Quick service F&B</a>
+<br><a href="#" style="text-decoration: none;color:white;">Retail</a>
+<br><a href="#" style="text-decoration: none;color:white;">SOHO</a>
+<br><a href="#" style="text-decoration: none;color:white;">Retailbox</a>
+<br><a href="#" style="text-decoration: none;color:white;">Features list</a>
+</span>
+</div>
+
+<div style="float:right; margin-left:20px;">
+<span style="font-size:12px;font-weight:300px;">COMPANY</span>
+<span style="font-size:8px;font-weight: 250;">
+<br><a href="#" style="text-decoration: none;color:white;">Partners</a>
+<br><a href="#" style="text-decoration: none;color:white;">Career</a>
+<br><a href="#" style="text-decoration: none;color:white;">Sitemap</a>
+<br><a href="#" style="text-decoration: none;color:white;">About us</a>
+</span>
+</div>
+<br clear=all>
+
+<hr noshade style="border:0;background-color: #ffffff;height: 1px;margin-top:25px;">
+
+<p style="text-align:center;font-size:15px;font-weight:bold;color:white;">BRANCHES</p>
+<div style="display:flex;font-size:7px;color:white;padding:0px 20px 0px 0px;margin-top:-20px;margin-left:30px;">
+<div style="flex:1;font-weight: 250;line-height:1.4;">
+Cambodia<br>Westec Media Limited + City Mall 2nd Floor, Monireth Blvd, S/k Veal Vong, Khan 7 Makara, Phnom Penh<br>+855 81 666 058/ +855 23 55555 23<br>support.xilnex@westecmedia.com
+</div>
+
+<div style="flex:1;font-weight: 250;line-height:1.4;">
+Headquarters<br>Unit 70-3-71, D¡¯Piazza Mall, Jalan Mahsuru, Bayan Baru, 11900 Penang +604 611 0162<br>info@xilnex.com
+</div>
+
+<div style="flex:1;font-weight: 250;line-height:1.4;">
+Kuala Lumpur<br>Unit D-8-11, Oasis Square, Oasis Damansara, Selangor 47301
+</div>
+
+</div>
+
+<hr noshade style="margin-top:12px;border:0;background-color: #ffffff;height: 1px;">
+
+<div style="text-align:center; font-size: 7px;color:white;font-weight: 250;line-height:1.4;margin-top:13px;">
+? 2017 Web Bytes Sdn. Bhd. All rights reserved |  
+<a href="#" style="text-decoration: none;color:white;">Terms & Conditions</a> |
+<a href="#" style="text-decoration: none;color:white;">Privacy</a><br>
+Download Package:
+	&nbsp
+<a href="#" style="text-decoration: none;color:white;">Retail</a> |
+<a href="#" style="text-decoration: none;color:white;">Full service F&B</a> |
+<a href="#" style="text-decoration: none;color:white;">Quick Service F&B</a> |
+<a href="#" style="text-decoration: none;color:white;">SOHO Package</a> |
+<a href="#" style="text-decoration: none;color:white;">Premium Package</a>
+</div>

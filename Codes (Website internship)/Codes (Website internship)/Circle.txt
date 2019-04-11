@@ -1,0 +1,112 @@
+<script type="text/javascript"> 
+
+ 	document.write("<svg style='display: block;margin: auto;margin-top:10px;opacity:.9; border: 1px black solid;'  height='430' width='1080'>");
+    document.write('<defs><linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:#975de9;stop-opacity:1" /><stop offset="100%" style="stop-color:#8593ed;stop-opacity:1" /></linearGradient></defs>');
+    document.write("<circle class='circle1' cx='30' cy='120' r='7' fill='url(#grad1)' />");
+    document.write("<circle class='circle1' cx='30' cy='120' r='15' stroke='#823fe4' stroke-width='3' fill='white' fill-opacity='0' />");
+	document.write("<circle class='circle2'cx='215' cy='155' r='7' fill='url(#grad1)' />");
+    document.write("<circle class='circle2' cx='215' cy='155' r='15' stroke='#823fe4' stroke-width='3' fill='white' fill-opacity='0'/>");
+    document.write("<circle class='circle3' cx='695' cy='82' r='7' fill='url(#grad1)' />");
+    document.write("<circle class='circle3' cx='695' cy='82' r='15' stroke='#823fe4' stroke-width='3' fill='white' fill-opacity='0' />");
+    document.write("<circle class='circle4'cx='835' cy='155' r='7' fill='url(#grad1)' />");
+    document.write("<circle class='circle4' cx='835' cy='155' r='15' stroke='#823fe4' stroke-width='3' fill='white' fill-opacity='0' />");
+    document.write("<circle class='circle5' cx='675' cy='355' r='7' fill='url(#grad1)' />");
+    document.write("<circle class='circle5' cx='675' cy='355' r='15' stroke='#823fe4' stroke-width='3' fill='white' fill-opacity='0' />");
+    document.write("</svg>");
+    
+    document.write("<br clear=all>");
+    
+    var content1 = "<div id='content1' style='margin-top:-500px;display:none; position: absolute;width: 250px;border: 1px solid #95989A;box-shadow: 5px 5px 9px 0 rgba(0, 0, 0, 0.16);'><div style='background:linear-gradient(to right, #667EEA , #715BB9,#563C7C);color:#ffffff;padding:20px;font-size:16px;font-weight:bold;'><div style='width:40px;float:left;margin-top: -5px;'><img src='http://xilnexwebnew.azurewebsites.net/wp-content/uploads/2018/05/tablet-laptopicon.png' width='30'></div>XILNEX ON THE MOVE</div><div style='color:#95989A;padding:20px;font-size:12px;line-height:1.7;background:white;'>Manage your business via your mobile with store updates, permissions control and more.</div></div>";
+	
+    document.write(content1);
+    
+    var content2 = "<div id='content2' style='margin-top:-450px;margin-left:315px;display:none; position: absolute;width: 220px;border: 1px solid #95989A;box-shadow: 5px 5px 9px 0 rgba(0, 0, 0, 0.16);'><div style='background:linear-gradient(to right, #667EEA , #715BB9,#563C7C);color:#ffffff;padding:20px;font-size:16px;font-weight:bold;'><div style='width:40px;float:left;margin-top: -5px;'><img src='http://xilnexwebnew.azurewebsites.net/wp-content/uploads/2018/05/tablet-laptopicon.png' width='30'></div>XILNEX MOBILITY*</div><div style='color:#95989A;padding:20px;font-size:12px;line-height:1.7;background:white;'>Never miss a sale transaction. Bring your business with you wherever you go. *Operation starts in the first quarter of 2018. Subject to additional charges per device.</div></div>";
+	
+    document.write(content2);
+    
+    var content3 = "<div id='content3' style='margin-top:-560px;margin-left:715px; display:none; position: absolute;width: 210px;border: 1px solid #95989A;box-shadow: 5px 5px 9px 0 rgba(0, 0, 0, 0.16);'><div style='background:linear-gradient(to right, #667EEA , #715BB9,#563C7C);color:#ffffff;padding:20px;font-size:16px;font-weight:bold;'><div style='width:40px;float:left;margin-top: -5px;'><img src='http://xilnexwebnew.azurewebsites.net/wp-content/uploads/2018/05/tablet-laptopicon.png' width='30'></div>XILNEX WEBAPP</div><div style='color:#95989A;padding:20px;font-size:12px;line-height:1.7;background:white;'>The control centre that handles your business¡¯s back end processes, accessible anywhere.</div></div>";
+	
+    document.write(content3);
+    
+    var content4 = "<div id='content4' style='margin-top:-475px;margin-left:710px;display:none; position: absolute;width: 220px;border: 1px solid #95989A;box-shadow: 5px 5px 9px 0 rgba(0, 0, 0, 0.16);'><div style='background:linear-gradient(to right, #667EEA , #715BB9,#563C7C);color:#ffffff;padding:20px 10px 20px 20px;font-size:16px;font-weight:bold;'><div style='width:40px;float:left;margin-top: -5px;'><img src='http://xilnexwebnew.azurewebsites.net/wp-content/uploads/2018/05/tablet-laptopicon.png' width='30'></div>THE POS TERMINAL</div><div style='color:#95989A;padding:20px;font-size:12px;line-height:1.7;background:white;'>Fast and easy to manoeuvre, this terminal is where you conduct your sales in store.</div></div>";
+	
+    document.write(content4);
+    
+    var content5 = "<div id='content5' style='margin-top:-210px;margin-left:450px;display:none; position: absolute;width: 260px;border: 1px solid #95989A;box-shadow: 5px 5px 9px 0 rgba(0, 0, 0, 0.16);'><div style='background:linear-gradient(to right, #667EEA , #715BB9,#563C7C);color:#ffffff;padding:20px;font-size:16px;font-weight:bold;'><div style='width:40px;float:left;margin-top: -5px;'><img src='http://xilnexwebnew.azurewebsites.net/wp-content/uploads/2018/05/tablet-laptopicon.png' width='30'></div>UNKNOWN</div><div style='color:#95989A;padding:20px;font-size:12px;line-height:1.7;background:white;'>Content</div></div>";
+	
+    document.write(content5);
+    
+ 	var circle1 = document.getElementsByClassName('circle1');
+    var circle2 = document.getElementsByClassName('circle2');
+ 	var circle3 = document.getElementsByClassName('circle3');
+ 	var circle4 = document.getElementsByClassName('circle4');
+ 	var circle5 = document.getElementsByClassName('circle5');
+	
+    circle1[1].addEventListener("mouseenter", function(e){
+        e.currentTarget.setAttribute("style", "transition:.2s");
+    	e.currentTarget.setAttribute("stroke", "#b98df7");
+        e.currentTarget.setAttribute("fill-opacity", ".5");
+        document.getElementById('content1').style.display="inline-block";
+    });
+    
+    circle1[1].addEventListener("mouseleave", function(e){        		
+    	e.currentTarget.setAttribute("style", "transition:.2s");
+    	e.currentTarget.setAttribute("stroke", "#823fe4");
+        e.currentTarget.setAttribute("fill-opacity", "0");
+        document.getElementById('content1').style.display="none";
+    });
+    
+    circle2[1].addEventListener("mouseenter", function(e){
+        e.currentTarget.setAttribute("style", "transition:.2s");
+    	e.currentTarget.setAttribute("stroke", "#b98df7");
+        e.currentTarget.setAttribute("fill-opacity", ".5");
+        document.getElementById('content2').style.display="inline-block";
+    });
+    
+    circle2[1].addEventListener("mouseleave", function(e){        		
+    	e.currentTarget.setAttribute("style", "transition:.2s");
+    	e.currentTarget.setAttribute("stroke", "#823fe4");
+        e.currentTarget.setAttribute("fill-opacity", "0");
+        document.getElementById('content2').style.display="none";
+    });
+    circle3[1].addEventListener("mouseenter", function(e){
+        e.currentTarget.setAttribute("style", "transition:.2s");
+    	e.currentTarget.setAttribute("stroke", "#b98df7");
+        e.currentTarget.setAttribute("fill-opacity", ".5");
+        document.getElementById('content3').style.display="inline-block";
+    });
+    
+    circle3[1].addEventListener("mouseleave", function(e){        		
+    	e.currentTarget.setAttribute("style", "transition:.2s");
+    	e.currentTarget.setAttribute("stroke", "#823fe4");
+        e.currentTarget.setAttribute("fill-opacity", "0");
+        document.getElementById('content3').style.display="none";
+    });
+    circle4[1].addEventListener("mouseenter", function(e){
+        e.currentTarget.setAttribute("style", "transition:.2s");
+    	e.currentTarget.setAttribute("stroke", "#b98df7");
+        e.currentTarget.setAttribute("fill-opacity", ".5");
+        document.getElementById('content4').style.display="inline-block";
+    });
+    
+    circle4[1].addEventListener("mouseleave", function(e){        		
+    	e.currentTarget.setAttribute("style", "transition:.2s");
+    	e.currentTarget.setAttribute("stroke", "#823fe4");
+        e.currentTarget.setAttribute("fill-opacity", "0");
+        document.getElementById('content4').style.display="none";
+    });
+    circle5[1].addEventListener("mouseenter", function(e){
+        e.currentTarget.setAttribute("style", "transition:.2s");
+    	e.currentTarget.setAttribute("stroke", "#b98df7");
+        e.currentTarget.setAttribute("fill-opacity", ".5");
+        document.getElementById('content5').style.display="inline-block";
+    });
+    
+    circle5[1].addEventListener("mouseleave", function(e){        		
+    	e.currentTarget.setAttribute("style", "transition:.2s");
+    	e.currentTarget.setAttribute("stroke", "#823fe4");
+        e.currentTarget.setAttribute("fill-opacity", "0");
+        document.getElementById('content5').style.display="none";
+    });
+    
+ </script>

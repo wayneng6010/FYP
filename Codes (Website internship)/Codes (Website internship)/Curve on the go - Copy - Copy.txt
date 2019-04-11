@@ -1,0 +1,178 @@
+<script type="text/javascript"> 
+
+var svg = document.createElement("SVG");
+var bgsvg = document.createElement("SVG");
+
+document.write("<svg style='width:1080px' height='500' > ");
+
+var bgpath = document.createElement("PATH");
+bgpath.setAttribute("id", "bgpath");
+document.write(bgpath.outerHTML);
+
+for(var y=1; y<=3; y++){
+	document.write("<line id='line"+y+"' x1='0' y1='0' x2='0' y2='100' style='stroke:#707070;stroke-width:0.5; display:none'; />");
+}
+
+var bgcircle1 = document.createElement("circle");
+bgcircle1.setAttribute("id", "bgcircle1");
+document.write(bgcircle1.outerHTML);
+var bgcircle2 = document.createElement("circle");
+bgcircle2.setAttribute("id", "bgcircle2");
+document.write(bgcircle2.outerHTML);
+var bgcircle3 = document.createElement("circle");
+bgcircle3.setAttribute("id", "bgcircle3");
+document.write(bgcircle3.outerHTML);
+
+var path = document.createElement("PATH");
+path.setAttribute("id", "path");
+document.write(path.outerHTML);
+
+var circle1 = document.createElement("circle");
+circle1.setAttribute("id", "circle1");
+document.write(circle1.outerHTML);
+var circle2 = document.createElement("circle");
+circle2.setAttribute("id", "circle2");
+document.write(circle2.outerHTML);
+var circle3 = document.createElement("circle");
+circle3.setAttribute("id", "circle3");
+document.write(circle3.outerHTML);
+
+var div = document.createElement("DIV");//timeline1
+var div1 = document.createElement("DIV");//vertical line
+
+svg.setAttribute("style", "width:1080px");
+svg.setAttribute("height", "500");
+svg.setAttribute("xmlns", "http://www.w3.org/2000/svg");
+
+var pathID = document.getElementById('path');
+pathID.setAttribute("d", "M10 190 C 150 200, 300 0, 495 150, 640 250, 750 300, 900 170 S 1050 50, 1150 80");
+pathID.setAttribute("stroke-width", "3");
+pathID.setAttribute("stroke", "#885ec4");
+pathID.setAttribute("fill", "transparent");
+pathID.setAttribute("id", "path");
+
+var bgpathID = document.getElementById('bgpath');
+bgpathID.setAttribute("d", "M10 100 C 150 50, 200 300, 495 170, 640 100, 800 10, 1150 130 S 1200 250, 1300 50");
+bgpathID.setAttribute("stroke-width", "3");
+bgpathID.setAttribute("stroke", "#ebebeb");
+bgpathID.setAttribute("fill", "transparent");
+bgpathID.setAttribute("id", "bgpath");
+
+for(var x=1; x<=3; x++){
+	var circleID = 'circle'+x;
+	var circle = document.getElementById(circleID);
+    circle.setAttribute("cx", "0");
+    circle.setAttribute("cy", "0");
+    circle.setAttribute("r", "5");
+    circle.setAttribute("fill", "white");
+    circle.setAttribute("stroke", "#885ec4");
+    circle.setAttribute("stroke-width", "3");
+    //alert(circle.outerHTML);
+
+    var bgcircleID = 'bgcircle'+x;
+	var bgcircle = document.getElementById(bgcircleID);
+	bgcircle.setAttribute("cx", "0");
+    bgcircle.setAttribute("cy", "0");
+    bgcircle.setAttribute("r", "5");
+    bgcircle.setAttribute("fill", "white");
+    bgcircle.setAttribute("stroke", "#ebebeb");
+    bgcircle.setAttribute("stroke-width", "3");
+
+if(x==1){
+    svg.innerHTML += bgpath.outerHTML;
+    svg.innerHTML += path.outerHTML;
+    
+    svg.innerHTML += "<defs><linearGradient id=grad1 x1='0%' y1='0%' x2='10%' y2='100%'><stop offset='0%' style='stop-color:rgb(128,72,230);stop-opacity:1' /><stop offset='90%' style='stop-color:rgb(106,111,233);stop-opacity:1' /></linearGradient></defs>";
+    //svg.innerHTML += bgcircle.outerHTML;
+    //svg.innerHTML += circle.outerHTML;
+    for(var y=1; y<=3; y++){
+
+    switch (y){
+    	case 1:
+        	 div.innerHTML += "<div id='timeline"+y+"' style='width:200px;background-color:white;color:#595959;border-style: solid;padding:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border-width: thin;border-color: lightgray;display:none;position:absolute;top:0;'><b>TIMELINE 01</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>23/04/2012</div>";
+        	break;
+            
+        case 2:
+        	 div.innerHTML += "<div id='timeline"+y+"' style='width:200px;background-color:white;color:#595959;border-style: solid;padding:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border-width: thin;border-color: lightgray;display:none;position:absolute;top:0;'><b>TIMELINE 02</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>23/04/2012</div>";
+        	break;
+        
+        case 3:
+        	 div.innerHTML += "<div id='timeline"+y+"' style='width:200px;background-color:white;color:#595959;border-style: solid;padding:20px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);border-width: thin;border-color: lightgray;display:none;position:absolute;top:0;'><b>TIMELINE 03</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>23/04/2012</div>";
+    		break;
+        }
+}
+	svg.innerHTML += div.outerHTML;
+	document.write(svg.innerHTML);
+}
+//else if(x==3){
+
+//}
+//if(x==3){
+	
+//}	
+
+document.getElementById(circleID).para = x;
+	
+document.getElementById(circleID).addEventListener('mouseenter', function(e) {
+	var x = event.target.para;
+	var timelineID = 'timeline'+x;
+	var lineID = 'line'+x;
+    var timeline = document.getElementById(timelineID);
+    var line =document.getElementById(lineID);
+    timeline.style.display = "inline-block";
+    line.style.display = "inline-block";
+    e.currentTarget.setAttribute("fill", "url(#grad1)");
+    e.currentTarget.setAttribute("stroke", "white");
+    e.currentTarget.setAttribute("stroke-width", "5");
+    e.currentTarget.setAttribute("r", "13");
+});
+
+document.getElementById(circleID).addEventListener('mouseleave', function(e) {
+	var x = event.target.para;
+    var timelineID = 'timeline'+x;
+	var lineID = 'line'+x;
+    var timeline = document.getElementById(timelineID);
+    var line =document.getElementById(lineID);
+    timeline.style.display = "none";
+    line.style.display = "none";
+    e.currentTarget.setAttribute('fill', 'white');     
+    e.currentTarget.setAttribute("stroke", "#885ec4");   
+    e.currentTarget.setAttribute("stroke-width", "3");
+    e.currentTarget.setAttribute("r", "5");
+});
+
+//bg path
+var bgpath = document.getElementById('bgpath')
+var bgpathLength = Math.floor( bgpath.getTotalLength() );
+var bgprcnt = (x*10)+5;
+
+bgprcnt1 = (bgprcnt*bgpathLength) / 100;
+var bgcircle = document.getElementById(bgcircleID);
+
+var bgpt = bgpath.getPointAtLength(bgprcnt1);
+bgcircle.setAttribute("cx", (bgpt.x).toFixed(2));
+bgcircle.setAttribute("cy", (bgpt.y).toFixed(2));
+
+//actual path
+var path = document.getElementById('path')
+var pathLength = Math.floor( path.getTotalLength() );
+var prcnt = (x*10)+5;
+
+prcnt1 = (prcnt*pathLength) / 100;
+var circle = document.getElementById(circleID);
+var pt = path.getPointAtLength(prcnt1);
+circle.setAttribute("cx", (pt.x).toFixed(2));
+circle.setAttribute("cy", (pt.y).toFixed(2));
+//alert(circle.outerHTML);
+
+var timelineID = 'timeline'+x;
+timeline=document.getElementById(timelineID);
+timeline.style.transform="translate("+(pt.x-100)+"px,"+(pt.y-255)+"px)";
+
+var lineID = 'line'+x;
+line=document.getElementById(lineID);
+line.style.transform="translate("+(pt.x)+"px,"+(pt.y-100)+"px)";
+}
+
+</script>
+

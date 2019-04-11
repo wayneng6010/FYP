@@ -1,0 +1,52 @@
+<div style="width: 80%; border: 1px solid #707070; height: 500px; overflow: hidden; position: relative; margin:0 auto;">
+
+<!-- 1st row -->
+<div style="width: 100%; height: 23%; box-sizing: border-box; border-bottom: 1px solid #707070; ">
+<div style="background: linear-gradient(to right, #7E36E5 , #667EEA); position: absolute; width: 50%; height: 25px; transform: rotate(47deg); right: -15%; "></div>
+<p style="color: #7E36E5; font-size: 16px; font-weight: bold; text-align: center; margin-top:3%; margin-bottom:0;">SOHO LITE</p>
+<p style="text-align: center;">
+<img src="http://xilnexwebnew.azurewebsites.net/wp-content/uploads/2018/05/ic_team.png" style="width: 60px;margin-top:3%;">
+</p>
+</div>
+
+<!-- 2nd row -->
+
+<div style="height: 60%; border-bottom: 1px solid #707070; box-sizing: border-box; width: 100%;">
+<div style="text-align: center;">
+<p style="font-size: 9px; line-height: 2.5; color: #95989A; padding-top: 2%;">Point of Sale<br>
+Inventory<br>
+Customer Data<br>
+Web Report<br>
+Attendance System<br>
+Multi Location Linkage<br>
+In-Store Promotions<br>
+Menu Management<br>
+Table Management<br>
+Easy Billing<br>
+</div>
+
+<div style="font-weight: bold; width: 100%; margin: 0 auto; text-align: center; height:80px; ">
+
+<div style="color: #885EC4; font-size: 12px; display: inline-block;  vertical-align: middle;">
+MYR
+</div>
+
+<div style="color: #7E36E5; font-size: 60px; display: inline-block; vertical-align: middle;">
+108
+</div> 
+
+<div style="color: #885EC4; font-size: 12px; display: inline-block; vertical-align: middle;">
+/ mo
+</div>
+
+</div>
+</div>
+
+<!-- 3rd row -->
+<div style="height: 15.5%; display: table; width: 100%; box-sizing: border-box;">
+<div style=" display: table-cell; vertical-align: middle; text-align: center;">
+<button style="border:none; text-decoration: none; background: #563C7C; color: white; width: 140px; height: 35px; font-size: 11px; box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);">BOOK NOW</button>
+</div>
+</div>
+
+</div>
